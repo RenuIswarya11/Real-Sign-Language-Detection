@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Ignore model and large data files 
+*.h5
+*.npy
+*.json

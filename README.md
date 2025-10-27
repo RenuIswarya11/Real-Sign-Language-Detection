@@ -30,33 +30,33 @@ This lightweight application processes live webcam input and identifies gestures
 Real-Time Sign Language Detection/
 │
 ├── data/
-│ ├── label_map.json    # Label mapping for gesture classes
-│ ├── X.npy     # Landmark feature data
-│ └── y.npy     # Encoded gesture labels
+│ ├── label_map.json    
+│ ├── X.npy     
+│ └── y.npy     
 │
 ├── dataset/
-│ ├── hello/    # Captured gesture images
+│ ├── hello/    
 │ ├── i_love_you/
 │ ├── no/
 │ ├── thank_you/
 │ └── yes/
 │
 ├── models/
-│ ├── best_model.h5     # Best performing trained model
-│ ├── final_model.h5    # Final trained model
-│ ├── scaler_mean.npy   # Scaler mean values (for normalization)
-│ └── scaler_scale.npy  # Scaler scale values (for normalization)
+│ ├── best_model.h5     
+│ ├── final_model.h5    
+│ ├── scaler_mean.npy   
+│ └── scaler_scale.npy  
 │
 ├── source/
-│ ├── capture_images.py     # Capture gesture images through webcam
-│ ├── extract_landmarks.py  # Extract hand landmarks using MediaPipe
-│ ├── realtimedetection.py  # Run real-time gesture recognition
-│ └── train.py  # Train the sign language detection model
+│ ├── capture_images.py     
+│ ├── extract_landmarks.py  
+│ ├── realtimedetection.py  
+│ └── train.py  
 │
-├── venv/   # Virtual environment (excluded from repo)
-├── .gitignore  # Ignored files
-├── README.md   # Project documentation
-└── requirements.txt # Required dependencies   
+├── venv/  
+├── .gitignore  
+├── README.md   
+└── requirements.txt 
 
 ---
 

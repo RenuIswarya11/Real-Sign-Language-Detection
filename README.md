@@ -70,10 +70,5 @@ It captures real-time hand gestures via webcam and predicts corresponding signs 
 </p>
 
 
-<p align="center">
-   <img src="docs/sign3.png" alt="Real Sign Language Detection Demo" width="800">
- </p>
-
-
 
 
